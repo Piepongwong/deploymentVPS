@@ -64,14 +64,16 @@ Verify your installation with `mongod --version`
 
 ## 5. Pull your project on the VPS using Git and Github and run it
 
-Now it's almost business as usual. You've installed all necessary software on your new environment. Navigate to the home folder of your VPS and clone the project you want to host. There's one important difference with your local setup that we've to take into account before running `npm install` and `node nameofyourapp.js`. We are no longer listening port number 3000, but port on number 80. On servers port 3000 is blocked by default. 80 is the default port for websites in production. The proper way to change this is by setting up your environment/config variables. We save that for another lesson. The quick and dirty way is by using 
-`sudo nano nameofyourapp.js`
-Nano is a very simple terminal based text-editor. Locate the place where you've set your port and change it to 3000. In the bottom of your screen you'll find instructions how to exit nano ('^' stands for the control key). Now run your app as you would do normally.
+Now it's almost business as usual. You've installed all necessary software on your new environment. I just wish that we had some convenient program to share code with. Something that downloads everything we need with one simple command. Hmmm if only. Oh, that's right GIT! Don't you love it? Navigate to the home folder of your VPS and clone the project you want to host. There's one important difference with your local setup that we've to take into account before running `npm install` and `node nameofyourapp.js`. We are no longer listening on port  3000, but on port 80. On servers port 3000 is blocked by default. 80 is the default port for websites in production (or 443 for https). The proper way to change this is by setting up your environment/config variables. We save that for another lesson. The quick and dirty way is by using 
+
+```sudo nano nameofyourapp.js```
+
+Nano is a very simple terminal based text-editor. Navigate to the place where you've set your port and change it to 80. In the bottom of your screen you'll find instructions how to exit nano ('^' stands for the control key). Now run your app as you would do normally.
 
 - [x] pull your project on the VPS using Git and Github and run it :white_check_mark:
 
 ### 6. Enjoy the beauty
-Copy paste the ip-address of your VPS in your browser. You do not have to specify the port, because if it's not specified, it takes port 80 by default. That's the same ip-address you've used to log in with SHH. In case you've forgot it, go to the droplets dashboard in DigitalOcean. 
+Copy paste the ip-address of your VPS in your browser. You do not have to specify the port, because if it's not specified, it uses port 80 by default. That's the same ip-address you've used to log in with SHH. In case you've forgot the ip, go to the droplets dashboard in DigitalOcean. 
 
 Voilà, ton site web. It's so fancy that I have to speak french. Omelette du fromage. There I go again.
 
@@ -86,9 +88,9 @@ Voilà, ton site web. It's so fancy that I have to speak french. Omelette du fro
 
 1.  [Install Filezilla](https://filezilla-project.org/) and connect to your server. Drag and drop your configuration file to your VPS.
 
-2. Managing ports on your VPS with UFW (Uncomplicated Firewall). Type `man ufw` in your terminal for instructions. Try to connect with mongodb on your VPS using Compass. You also have to change some settings in mongo. You can find that [here](http://bfy.tw/L70u)
+2. Managing ports on your VPS with UFW (Uncomplicated Firewall). Type `man ufw` in your terminal for instructions. Try to connect with mongodb on your VPS using Compass. You also have to change some settings in mongo. There's some excellent material over [here](http://lmgtfy.com/?q=mongodb+enable+external+access)
 
-### Things That might go wrong
+### Things that might go wrong
 * Your SSH key is not in ~/.ssh
 * Mongodb is not running on your VPS
 * You did not copy the public SSH key correctly
