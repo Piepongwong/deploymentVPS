@@ -7,7 +7,7 @@ Sign up for Digital Ocean via [this link](https://m.do.co/c/40f2831c48f4) to rec
 # Battle Plan:
 1. - [x] [create](https://m.do.co/c/40f2831c48f4) a Digital Ocean account
 2. - [ ] create a VPS in Digital Ocean
-3. - [ ] connect to the VPS via the terminal with SSH
+3. - [ ] connect to the VPS in terminal with SSH
 4. - [ ] install nodeJs and MongoDB on your server
 5. - [ ] pull your project on the VPS using Git and Github and run it
 6. - [ ] enjoy the beauty
@@ -32,7 +32,7 @@ Now in Digital Ocean you can click on "New SSH Key". Copy paste the key from you
 
 1. - [x] create a VPS in Digital Ocean :white_check_mark:
 
-## 3. Connect to the VPS via the terminal with SSH
+## 3. Connect to the VPS in terminal with SSH
 
 After you've completed step 2, Digital Ocean will set up a VPS. This VPS has its own ip-address. Copy it from your droplet overview to your clipboard. Go to your terminal and type `ssh root@theipaddress". Of course "theipaddress" is a placeholder for your ip-address. <sub>(trust me, you will not believe what a teacher has to endure sometimes :p </sub>) . Wait whuut hooow, skrrrah, pap, pap, ka-ka-ka what happened?! Did I just turn into a hacker? YES, you did. Enjoy this moment. Reality will quickly catch up with you.
 
@@ -77,7 +77,7 @@ Voilà, ton site web. It's so fancy that I have to speak french. Omelette du fro
 
 1. - [x] [create a Digital Ocean account](https://m.do.co/c/40f2831c48f4)
 2. - [x] create a VPS in Digital Ocean 
-3. - [x] connect to the VPS via the terminal with SSH
+3. - [x] connect to the VPS in the terminal with SSH
 4. - [x] install nodeJs and MongoDB on your server
 5. - [x] pull your project on the VPS using Git and Github and run it
 6. - [x] enjoy the beauty
