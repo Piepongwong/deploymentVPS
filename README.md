@@ -26,11 +26,11 @@ The response should look something like this: <br>
 
 This is your public key. The `cat` command prints out text files in your terminal. In this case this text file your public ssh key. Note that we assume you already created your key pair. In case you didn't, follow [these steps](https://www.digitalocean.com/docs/droplets/how-to/add-ssh-keys/create-with-openssh/). `~/.ssh` is the default location of the ssh keys. Your keys might be somewhere else. 
 
-**Never share your private key!**
+**Never share your** __**private**__ **key!**
 
 Now in Digital Ocean you can click on "New SSH Key". Copy paste the key from your terminal to Digital Ocean. Name the key after the computer it belongs to, like 'personal mac'. Use your imagination.
 
-1. - [x] create a VPS in Digital Ocean
+1. - [x] create a VPS in Digital Ocean :white_check_mark:
 
 ## 3. Connect to the VPS via the terminal with SSH
 
@@ -38,7 +38,7 @@ After you've completed step 2, Digital Ocean will set up a VPS. This VPS has its
 
 You're now inside the VPS! You can use all unix based commands that you're used to. Try out some, for example `cd /` and then `ls`. You can see the whole file structure of your very own server.
 
-3. - [x] connect to the VPS via the terminal using SSH
+3. - [x] connect to the VPS via the terminal using SSH :white_check_mark:
 
 ## 4. Install nodeJs and MongoDB on your server
 
@@ -56,7 +56,7 @@ Now install mongoDB with:
 ```sudo apt install -y mongodb```
 The "-y" flag basically says yes to all options, similar clicking on "accept" while installing software with a graphical interface. Please be aware that you should read everything. It might contain valuable informati... Just kidding. Aint nobody got time for that. Verify your installation with `mongod --version`
 
-4. - [x] install nodeJs and MongoDB on your server
+4. - [x] install nodeJs and MongoDB on your server :white_check_mark:
 
 ## 5. Pull your project on the VPS using Git and Github and run it
 
@@ -64,13 +64,13 @@ Now it's almost business as usual. You've installed all necessary software on yo
 `sudo nano nameofyourapp.js`
 Nano is a very simple terminal based text-editor. Locate the place where you've set your port and change it to 3000. In the bottom of your screen you'll find instructions how to exit nano ('^' stands for ctr/cmd). Now run your app as you would do normally.
 
-- [x] pull your project on the VPS using Git and Github and run it
+- [x] pull your project on the VPS using Git and Github and run it :white_check_mark:
 
 ### 6. Enjoy the beauty
 Copy paste the ip-address of your VPS in your browser. That's the same ip-address you've used to log in with ssh. In case you've forgot, go to the droplets dashboard in DigitalOcean. You do not have to specify the port, because if it's not specified, it takes port 80 by default. Voilà, ton site web. It's so fancy that I've start to speak french.  
 
 1. - [x] [create a Digital Ocean account](https://m.do.co/c/40f2831c48f4)
-2. - [x] create a VPS in Digital Ocean
+2. - [x] create a VPS in Digital Ocean 
 3. - [x] connect to the VPS via the terminal with SSH
 4. - [x] install nodeJs and MongoDB on your server
 5. - [x] pull your project on the VPS using Git and Github and run it
