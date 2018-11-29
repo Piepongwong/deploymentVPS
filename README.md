@@ -19,9 +19,7 @@ Log in to your account and click on the "Create" button. Select "Droplets" (Digi
 The next option deserves a separate paragraph. ;) It's time to add our **public** SSH key. This key will authenticate your computer. It ensures that only you have access to your VPS and you can connect to it without typing your password over and over again. Execute the following command in your terminal: <br>
 ```cat ~/.ssh/id_rsa.pub```<br>
 The response should look something like this: <br>
-<sub> 
-```ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDCHJTQ570px3vhnVJrLAi9XQ1vR442ojPvPb9u+Ki9CbTF3LGm3WNfi1phkEo7Nn2+gqipZFAuqZVwrzMZVkLdJKr6IxmYNCA2SXedlUkXNftJx0Rzc0psgUh9DPUGwCoHRblZ5sIILQBCPCHtbUW7PssIfLklB/KN6yg+8QHBAJrgSV18XelMS1TI jurgen.tonneyck@ironhack.com```
-</sub>```<br>
+```ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDCHJTQ570px3vhnVJrLAi9XQ1vR442ojPvPb9u+Ki9CbTF3LGm3WNfi1phkEo7Nn2+gqipZFAuqZVwrzMZVkLdJKr6IxmYNCA2SXedlUkXNftJx0Rzc0psgUh9DPUGwCoHRblZ5sIILQBCPCHtbUW7PssIfLklB/KN6yg+8QHBAJrgSV18XelMS1TI jurgen.tonneyck@ironhack.com```<br>
 This is your public key. The `cat` command prints out text files in your terminal. In this case this text file your public ssh key. Note that we assume you already created your key pair. In case you didn't, follow [these steps](https://www.digitalocean.com/docs/droplets/how-to/add-ssh-keys/create-with-openssh/). `~/.ssh` is the default location of the ssh keys. Your keys might be somewhere else. 
 
 <span style="color:red">Never share your private key!</span>
