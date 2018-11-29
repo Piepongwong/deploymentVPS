@@ -93,6 +93,6 @@ Voilà, ton site web. It's so fancy that I have to speak french. Omelette du fro
 * Mongodb is not running on your VPS
 * You did not copy the public SSH key correctly
 * Your node app is still listening on port 3000
-* You did not create a data directory for mongoDB. [Help](https://stackoverflow.com/questions/7948789/mongod-complains-that-there-is-no-data-db-folder)
+* You did not create a [data directory](https://stackoverflow.com/questions/7948789/mongod-complains-that-there-is-no-data-db-folder) for mongoDB
 * You've been staring at your sceen so long, that you can only talk in binary
 * Nobody likes you
