@@ -4,7 +4,7 @@ Digital ocean is a hosting company that offers Virtual Private Servers (VPS). A 
 
 Sign up for Digital Ocean via [this link](https://m.do.co/c/40f2831c48f4) to receive $100 credit for 2 months. After that period a VPS costs $5 a month, but you're charged per hour. Therefore you can spin up projects, see if it works online and disable it again. You can host multiple projects on 1 server.
 
-# Battle plan:
+# Battle Plan:
 1. - [x] [create] (https://m.do.co/c/40f2831c48f4) a Digital Ocean account
 2. - [ ] create a VPS in Digital Ocean
 3. - [ ] connect to the VPS via the terminal with SSH
@@ -86,4 +86,4 @@ Voilà, ton site web. It's so fancy that I have to speak french. Omelette du fro
 
 1.  [Install Filezilla](https://filezilla-project.org/) and connect to your server. Drag and drop your configuration file to your VPS.
 
-2. Managing ports on your VPS with UFW (Uncomplicated Firewall). Type `man ufw` in your terminal for instructions. Try to connect with mongodb on your VPS using Compass. You also have to change some settings in mongo.
+2. Managing ports on your VPS with UFW (Uncomplicated Firewall). Type `man ufw` in your terminal for instructions. Try to connect with mongodb on your VPS using Compass. You also have to change some settings in mongo. You can find that [here](http://bfy.tw/L70u)
