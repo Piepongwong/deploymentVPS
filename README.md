@@ -5,7 +5,7 @@ Digital ocean is a hosting company that offers Virtual Private Servers (VPS). A 
 Sign up for Digital Ocean via [this link](https://m.do.co/c/40f2831c48f4) to receive $100 credit for 2 months. After that period a VPS costs $5 a month, but you're charged per hour. Therefore you can spin up projects, see if it works online and disable it again. You can host multiple projects on 1 server.
 
 # Battle Plan:
-1. - [x] [create] (https://m.do.co/c/40f2831c48f4) a Digital Ocean account
+1. - [x] [create](https://m.do.co/c/40f2831c48f4) a Digital Ocean account
 2. - [ ] create a VPS in Digital Ocean
 3. - [ ] connect to the VPS via the terminal with SSH
 4. - [ ] install nodeJs and MongoDB on your server
