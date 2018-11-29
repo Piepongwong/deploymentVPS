@@ -56,20 +56,24 @@ MongoDB is next in line. MongoDB is already part of `apt-get`'s repositories. Fi
 
 Now install mongoDB with:
 ```sudo apt install -y mongodb```
-The "-y" flag basically says yes to all options, similar clicking on "accept" while installing software with a graphical interface. Please be aware that you should read everything. It might contain valuable informati... Just kidding. Aint nobody got time for that. Verify your installation with `mongod --version`
+The "-y" flag basically says yes to all options, similar to clicking on "accept" while installing software with a graphical interface. Please be aware that you should read everything. It might contain valuable informati... Just kidding. Aint nobody got time for that. 
 
-4. - [x] install nodeJs and MongoDB on your server :white_check_mark:
+Verify your installation with `mongod --version`
+
+4. - [x] install nodeJs and MongoDB on your server    :white_check_mark:
 
 ## 5. Pull your project on the VPS using Git and Github and run it
 
 Now it's almost business as usual. You've installed all necessary software on your new environment. Navigate to the home folder of your VPS and clone the project you want to host. There's one important difference with your local setup that we've to take into account before running `npm install` and `node nameofyourapp.js`. We are no longer listening port number 3000, but port on number 80. On servers port 3000 is blocked by default. 80 is the default port for websites in production. The proper way to change this is by setting up your environment/config variables. We save that for another lesson. The quick and dirty way is by using 
 `sudo nano nameofyourapp.js`
-Nano is a very simple terminal based text-editor. Locate the place where you've set your port and change it to 3000. In the bottom of your screen you'll find instructions how to exit nano ('^' stands for ctr/cmd). Now run your app as you would do normally.
+Nano is a very simple terminal based text-editor. Locate the place where you've set your port and change it to 3000. In the bottom of your screen you'll find instructions how to exit nano ('^' stands for the control key). Now run your app as you would do normally.
 
 - [x] pull your project on the VPS using Git and Github and run it :white_check_mark:
 
 ### 6. Enjoy the beauty
-Copy paste the ip-address of your VPS in your browser. That's the same ip-address you've used to log in with ssh. In case you've forgot, go to the droplets dashboard in DigitalOcean. You do not have to specify the port, because if it's not specified, it takes port 80 by default. Voilà, ton site web. It's so fancy that I've start to speak french.  
+Copy paste the ip-address of your VPS in your browser. You do not have to specify the port, because if it's not specified, it takes port 80 by default. That's the same ip-address you've used to log in with SHH. In case you've forgot it, go to the droplets dashboard in DigitalOcean. 
+
+Voilà, ton site web. It's so fancy that I've start to speak french. Omelette du fromage. There I go again.
 
 1. - [x] [create a Digital Ocean account](https://m.do.co/c/40f2831c48f4)
 2. - [x] create a VPS in Digital Ocean 
@@ -80,6 +84,6 @@ Copy paste the ip-address of your VPS in your browser. That's the same ip-addres
   
 ### Extra - setting up your port and other env vars the right way
 
-[Install Filezilla](https://filezilla-project.org/) and connect to your server. Drag and drop your configuration file to your VPS.
+1.  [Install Filezilla](https://filezilla-project.org/) and connect to your server. Drag and drop your configuration file to your VPS.
 
-Managing ports on your VPS with UFW (Uncomplicated Firewall). Type `man ufw` in your terminal for instructions. Try to connect with mongodb on your VPS using Compass. You also have to change some settings in mongo.
+2. Managing ports on your VPS with UFW (Uncomplicated Firewall). Type `man ufw` in your terminal for instructions. Try to connect with mongodb on your VPS using Compass. You also have to change some settings in mongo.
