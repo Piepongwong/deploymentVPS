@@ -87,3 +87,11 @@ Voilà, ton site web. It's so fancy that I have to speak french. Omelette du fro
 1.  [Install Filezilla](https://filezilla-project.org/) and connect to your server. Drag and drop your configuration file to your VPS.
 
 2. Managing ports on your VPS with UFW (Uncomplicated Firewall). Type `man ufw` in your terminal for instructions. Try to connect with mongodb on your VPS using Compass. You also have to change some settings in mongo. You can find that [here](http://bfy.tw/L70u)
+
+### Things that might go wrong
+* Your SSH key is not in ~/.ssh
+* Mongodb is not running on your VPS
+* You did not copy the public SSH key correctly
+* Your node app is still listening on port 3000
+* You've been staring at your sceen so long, that you can only talk in binary
+* Nobody likes you
