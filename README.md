@@ -73,7 +73,7 @@ Nano is a very simple terminal based text-editor. Locate the place where you've 
 ### 6. Enjoy the beauty
 Copy paste the ip-address of your VPS in your browser. You do not have to specify the port, because if it's not specified, it takes port 80 by default. That's the same ip-address you've used to log in with SHH. In case you've forgot it, go to the droplets dashboard in DigitalOcean. 
 
-Voilà, ton site web. It's so fancy that I've start to speak french. Omelette du fromage. There I go again.
+Voilà, ton site web. It's so fancy that I have to speak french. Omelette du fromage. There I go again.
 
 1. - [x] [create a Digital Ocean account](https://m.do.co/c/40f2831c48f4)
 2. - [x] create a VPS in Digital Ocean 
