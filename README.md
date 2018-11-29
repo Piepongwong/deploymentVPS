@@ -16,7 +16,9 @@ Sign up for Digital Ocean via [this link](https://m.do.co/c/40f2831c48f4) to rec
 
 Log in to your account and click on the "Create" button. Select "Droplets" (Digital Ocean calls VPS's Droplets). Keep the distribution as Ubuntu and select the plan of 5 bucks a month. For now we don't want backups or block storage. Choose the datacenter region that is the closest to you. 
 
-The next option deserves a separate paragraph. ;) It's time to add our **public** SSH key. This key will authenticate your computer. It ensures that only you have access to your VPS and you can connect to it without typing your password over and over again. Execute the following command in your terminal: ```cat ~/.ssh/id_rsa.pub```. The response should look something like this: 
+The next option deserves a separate paragraph. ;) It's time to add our **public** SSH key. This key will authenticate your computer. It ensures that only you have access to your VPS and you can connect to it without typing your password over and over again. Execute the following command in your terminal: 
+```cat ~/.ssh/id_rsa.pub```
+The response should look something like this: <br>
 <sub> 
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDCHJTQ570px3vhnVJrLAi9XQ1vR442ojPvPb9u+Ki9CbTF3LGm3WNfi1phkEo7Nn2+gqipZFAuqZVwrzMZVkLdJKr6IxmYNCA2SXedlUkXNftJx0Rzc0psgUh9DPUGwCoHRblZ5sIILQBCPCHtbUW7PssIfLklB/KN6yg+8QHBAJrgSV18XelMS1TI jurgen.tonneyck@ironhack.com
 </sub>
