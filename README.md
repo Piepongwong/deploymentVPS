@@ -9,7 +9,7 @@ Sign up for Digital Ocean via [this link](https://m.do.co/c/40f2831c48f4) to rec
 2. - [ ] create a VPS in Digital Ocean
 3. - [ ] connect to the VPS in terminal with SSH
 4. - [ ] install nodeJs and MongoDB on your server
-5. - [ ] pull your project on the VPS using Git and Github and run it
+5. - [ ] pull your project into the VPS using Git and Github and run it
 6. - [ ] enjoy the beauty
 
 ## 1. Create a VPS in Digital Ocean
@@ -62,7 +62,7 @@ Verify your installation with `mongod --version`
 
 4. - [x] install nodeJs and MongoDB on your server    :white_check_mark:
 
-## 5. Pull your project on the VPS using Git and Github and run it
+## 5. Pull your Project into the VPS using Git and Github and run it
 
 Now it's almost business as usual. You've installed all necessary software on your new environment. I just wish that we had some convenient program to share code with. Something that downloads everything we need with one simple command. Hmmm if only. Oh, that's right GIT! Don't you love it? Navigate to the home folder of your VPS and clone the project you want to host. There's one important difference with your local setup that we've to take into account before running `npm install` and `node nameofyourapp.js`. We are no longer listening on port  3000, but on port 80. On servers port 3000 is blocked by default. 80 is the default port for websites in production (or 443 for https). The proper way to change this is by setting up your environment/config variables. We save that for another lesson. The quick and dirty way is by using 
 
@@ -70,9 +70,9 @@ Now it's almost business as usual. You've installed all necessary software on yo
 
 Nano is a very simple terminal based text-editor. Navigate to the place where you've set your port and change it to 80. In the bottom of your screen you'll find instructions how to exit nano ('^' stands for the control key). Now run your app as you would do normally.
 
-- [x] pull your project on the VPS using Git and Github and run it :white_check_mark:
+- [x] pull your project into the VPS using Git and Github and run it :white_check_mark:
 
-### 6. Enjoy the beauty
+### 6. Enjoy the Beauty
 Copy paste the ip-address of your VPS in your browser. You do not have to specify the port, because if it's not specified, it uses port 80 by default. That's the same ip-address you've used to log in with SHH. In case you've forgot the ip, go to the droplets dashboard in DigitalOcean. 
 
 Voilà, ton site web. It's so fancy that I have to speak french. Omelette du fromage. There I go again.
@@ -81,7 +81,7 @@ Voilà, ton site web. It's so fancy that I have to speak french. Omelette du fro
 2. - [x] create a VPS in Digital Ocean 
 3. - [x] connect to the VPS in the terminal with SSH
 4. - [x] install nodeJs and MongoDB on your server
-5. - [x] pull your project on the VPS using Git and Github and run it
+5. - [x] pull your project into the VPS using Git and Github and run it
 6. - [x] enjoy the beauty
   
 ### Extra - setting up your port and other env vars the right way
