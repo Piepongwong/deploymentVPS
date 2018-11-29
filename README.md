@@ -5,7 +5,7 @@ Digital ocean is a hosting company that offers Virtual Private Servers (VPS). A 
 Sign up for Digital Ocean via [this link](https://m.do.co/c/40f2831c48f4) to receive $100 credit for 2 months. After that period a VPS costs $5 a month, but you're charged per hour. Therefore you can spin up projects, see if it works online and disable it again. You can host multiple projects on 1 server.
 
 # Battle plan:
-1. - [x] [create a Digital Ocean account](https://m.do.co/c/40f2831c48f4)
+1. - [x] [create] (https://m.do.co/c/40f2831c48f4) a Digital Ocean account
 2. - [ ] create a VPS in Digital Ocean
 3. - [ ] connect to the VPS via the terminal with SSH
 4. - [ ] install nodeJs and MongoDB on your server
@@ -16,15 +16,17 @@ Sign up for Digital Ocean via [this link](https://m.do.co/c/40f2831c48f4) to rec
 
 Log in to your account and click on the "Create" button. Select "Droplets" (Digital Ocean calls VPS's Droplets). Keep the distribution as Ubuntu and select the plan of 5 bucks a month. For now we don't want backups or block storage. Choose the datacenter region that is the closest to you. 
 
-The next option deserves a separate paragraph. ;) It's time to add our **public** SSH key. This key will authenticate your computer. It ensures that only you have access to your VPS and you can connect to it without typing your password over and over again. Execute the following command in your terminal: `cat ~/.ssh/id_rsa.pub`. The response should look something like this: 
-<sub><sup> ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDCHJTQ570px3vhnVJrLAi9XQ1vR442ojPvPb9u+Ki9CbTF3LGm3WNfi1phkEo7Nn2+gqipZFAuqZVwrzMZVkLdJKr6IxmYNCA2SXedlUkXNftJx0Rzc0psgUh9DPUGwCoHRblZ5sIILQBCPCHtbUW7PssIfLklB/KN6yg+8QHBAJrgSV18XelMS1TI jurgen.tonneyck@ironhack.com</sup></sub>
+The next option deserves a separate paragraph. ;) It's time to add our **public** SSH key. This key will authenticate your computer. It ensures that only you have access to your VPS and you can connect to it without typing your password over and over again. Execute the following command in your terminal: ```cat ~/.ssh/id_rsa.pub```. The response should look something like this: 
+<sub> 
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDCHJTQ570px3vhnVJrLAi9XQ1vR442ojPvPb9u+Ki9CbTF3LGm3WNfi1phkEo7Nn2+gqipZFAuqZVwrzMZVkLdJKr6IxmYNCA2SXedlUkXNftJx0Rzc0psgUh9DPUGwCoHRblZ5sIILQBCPCHtbUW7PssIfLklB/KN6yg+8QHBAJrgSV18XelMS1TI jurgen.tonneyck@ironhack.com
+</sub>
 This is your public key. The `cat` command prints out text files in your terminal. In this case this text file your public ssh key. Note that we assume you already created your key pair. In case you didn't, follow [these steps](https://www.digitalocean.com/docs/droplets/how-to/add-ssh-keys/create-with-openssh/). `~/.ssh` is the default location of the ssh keys. Your keys might be somewhere else. 
 
 <span style="color:red">Never share your private key!</span>
 
 Now in Digital Ocean you can click on "New SSH Key". Copy paste the key from your terminal to Digital Ocean. Name the key after the computer it belongs to, like 'personal mac'. Use your imagination.
 
-2. - [x] create a VPS in Digital Ocean
+1. - [x] create a VPS in Digital Ocean
 
 ## 3. Connect to the VPS via the terminal with SSH
 
