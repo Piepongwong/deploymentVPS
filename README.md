@@ -50,8 +50,10 @@ Now install it with:
 
 MongoDB is next in line. MongoDB is already part of `apt-get`'s repositories. First update the repositories with 
 ```sudo apt update``` 
-`sudo` stands for "super user do" and gives you admin privileges. 
-![alt text](./sandwich.png)
+`sudo` stands for "super user do" and gives you admin privileges. <br>
+
+![alt text](./sandwich.png)<br>
+
 Now install mongoDB with:
 ```sudo apt install -y mongodb```
 The "-y" flag basically says yes to all options, similar clicking on "accept" while installing software with a graphical interface. Please be aware that you should read everything. It might contain valuable informati... Just kidding. Aint nobody got time for that. Verify your installation with `mongod --version`
