@@ -40,7 +40,7 @@ You're now inside the VPS! You can use all unix based commands that you're used 
 
 1. - [x] connect to the VPS via the terminal using SSH :white_check_mark:
 
-## 4. Install nodeJs and MongoDB on your server
+## 4. Install nodeJs and MongoDB on your Server
 
 In your VPS dowload nodeJs with the following command: 
 
@@ -109,5 +109,5 @@ Voilà, ton site web. It's so fancy that I have to speak french. Omelette du fro
 * You've been staring at your sceen so long, that you can only see binary
 * Nobody likes you
 
-## Things we did not vover
+## Things we did not cover
 Linking a domain name to the IP address of your VPS. Trust me, this is not the hardest part. You can make a domain name point to your IP address  with GoDaddy, Namecheap or tons of others. Those companies are called registrars.
