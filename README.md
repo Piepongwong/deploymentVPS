@@ -7,7 +7,7 @@ Sign up for DigitalOcean via [this link](https://m.do.co/c/40f2831c48f4) to rece
 ## Battle Plan:
 1. - [x] [create](https://m.do.co/c/40f2831c48f4) a DigitalOcean account
 2. - [ ] create a VPS with DigitalOcean
-3. - [ ] connect to the VPS in terminal with SSH
+3. - [ ] Connect to the VPS with SSH
 4. - [ ] install nodeJs and MongoDB on your server
 5. - [ ] pull your project into the VPS using Git and Github and run it
 6. - [ ] enjoy the beauty
@@ -32,7 +32,7 @@ Now in DigitalOcean you can click on "New SSH Key". Copy paste the key from your
 
 1. - [x] create a VPS with DigitalOcean :white_check_mark:
 
-## 3. Connect to the VPS in terminal with SSH
+## 3. Connect to the VPS with SSH
 
 After you've completed step 2, DigitalOcean will set up a VPS. This VPS has its own IP address. Copy it from your droplet overview to your clipboard. Go to your terminal and type `ssh root@theipaddress". Of course "theipaddress" is a placeholder for your IP address. <sub>(trust me, you will not believe what a teacher has to endure sometimes :p </sub>) . Wait whuut hooow, skrrrah, pap, pap, ka-ka-ka what happened?! Did I just turn into a hacker? YES, you did. Enjoy this moment. Reality will catch up with you quickly.
 
