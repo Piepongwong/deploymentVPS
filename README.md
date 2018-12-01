@@ -1,10 +1,10 @@
-## Deployment with DigitalOcean
+# Deployment with DigitalOcean
 
 DigitalOcean is a hosting company that offers Virtual Private Servers (VPS). A VPS feels and works just like a real server. It gives you complete control over an external computer via the terminal. After you connect to the VPS, you can execute commands on that computer as if it were yours. 
 
 Sign up for DigitalOcean via [this link](https://m.do.co/c/40f2831c48f4) to receive $100 credit for 2 months. After that period a VPS costs $5 a month, but you're charged per hour. Therefore you can spin up projects, see if it works online and disable it again. You can host multiple projects on 1 server.
 
-# Battle Plan:
+## Battle Plan:
 1. - [x] [create](https://m.do.co/c/40f2831c48f4) a DigitalOcean account
 2. - [ ] create a VPS with DigitalOcean
 3. - [ ] connect to the VPS in terminal with SSH
@@ -102,4 +102,4 @@ Voilà, ton site web. It's so fancy that I have to speak french. Omelette du fro
 * Nobody likes you
 
 ## Things We Did not Cover
-Linking a domain name to the IP address of your VPS. Trust me, this is not the hardest part.
+Linking a domain name to the IP address of your VPS. Trust me, this is not the hardest part. You can make a domain name point to your IP address  with GoDaddy, Namecheap or tons of others. Those companies are called registrars.
