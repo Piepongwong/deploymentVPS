@@ -109,5 +109,5 @@ Voilà, ton site web. It's so fancy that I have to speak french. Omelette du fro
 * You've been staring at your sceen so long, that you can only see binary
 * Nobody likes you
 
-## Things We Did not Cover
+## Things we did not vover
 Linking a domain name to the IP address of your VPS. Trust me, this is not the hardest part. You can make a domain name point to your IP address  with GoDaddy, Namecheap or tons of others. Those companies are called registrars.
