@@ -43,19 +43,27 @@ You're now inside the VPS! You can use all unix based commands that you're used 
 ## 4. Install nodeJs and MongoDB on your server
 
 In your VPS dowload nodeJs with the following command: 
-```curl -sL https://deb.nodesource.com/setup_10.x | bash -```
-Now install it with: 
-```apt-get install -y nodejs``` 
-`apt-get` is Linux' package manager, NPM for an Operating System if you like. Verify your installation by typing `node --version`. If you get a response, it means you've installed nodeJs correctly.
 
-MongoDB is next in line. MongoDB is already part of `apt-get`'s repositories. First update all repositories with 
-```sudo apt update``` 
+```curl -sL https://deb.nodesource.com/setup_10.x | bash -```
+
+Now install it with: 
+
+```apt-get install -y nodejs``` 
+
+`apt-get` is Linux' package manager, NPM for an operating system if you like. Verify your installation by typing `node --version`. If you get a response, it means you've installed nodeJs correctly.
+
+MongoDB is next in line. MongoDB is already part of `apt-get`'s repositories. First update all repositories with:
+
+```sudo apt update```
+
 `sudo` stands for "super user do" and gives you admin privileges. <br>
 
 ![alt text](./sandwich.png)<br>
 
 Now install mongoDB with:
+
 ```sudo apt install -y mongodb```
+
 The "-y" flag basically says yes to all options, similar to clicking on "accept" while installing software with a graphical interface. Please be aware that you should read everything. It might contain valuable informati... Just kidding. Aint nobody got time for that. 
 
 Verify your installation with `mongod --version`
