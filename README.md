@@ -106,8 +106,9 @@ Voilà, ton site web. It's so fancy that I have to speak french. Omelette du fro
 * You did not copy the public SSH key correctly
 * Your node app is still listening on port 3000
 * You did not create a [data directory](https://stackoverflow.com/questions/7948789/mongod-complains-that-there-is-no-data-db-folder) for mongoDB
+* You tried cloning your repository on your server via SSH instead of HTTPS. (If you want to use SSH, you've add the public key of your server to Github.)
 * You've been staring at your sceen so long, that you can only see binary
 * Nobody likes you
 
 ## Things we did not cover
-Linking a domain name to the IP address of your VPS. Trust me, this is not the hardest part. You can make a domain name point to your IP address  with GoDaddy, Namecheap or tons of others. Those companies are called registrars.
+Linking a domain name to the IP address of your VPS. Trust me, this is not the hardest part. You can make a domain name point to your IP address with [Namecheap](http://www.dpbolvw.net/click-8951478-13552301) or tons of others. Companies like Namecheap are called registrars.
