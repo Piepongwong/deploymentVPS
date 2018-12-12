@@ -106,7 +106,7 @@ Voilà, ton site web. It's so fancy that I have to speak french. Omelette du fro
 * You did not copy the public SSH key correctly
 * Your node app is still listening on port 3000
 * You did not create a [data directory](https://stackoverflow.com/questions/7948789/mongod-complains-that-there-is-no-data-db-folder) for mongoDB
-* You tried cloning your repository on your server via SSH instead of HTTPS. (If you want to use SSH, you've add the public key of your server to Github.)
+* You tried cloning your repository on your server via SSH instead of HTTPS. (If you want to use SSH, you've to add the public key of your server to Github.)
 * You've been staring at your sceen so long, that you can only see binary
 * Nobody likes you
 
